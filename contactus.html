@@ -2,7 +2,35 @@
 <html>
     <head>
         <title>Contactus HTML</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    
+    <style>
+       *{
+        font-family: 'Roboto Slab', serif;
+       }
+       label{
+        color: blueviolet;
+        font-size: x-large;
+       }
+       input{
+        width: 400px;
+        height: 20px;
+        border-radius: 10px;
+        border: 1px solid red;
+        color: rgb(98, 226, 43);
+        text-transform: capitalize;
+       }
+       input[type="text"]{
+        text-transform: capitalize;
+       }
+       input[type="Email"]{
+        color: brown;
+       }
+    </style>
     </head>
+
     <body>
 </head>
 
@@ -24,7 +52,7 @@
                 <td> <input type="email"required placeholder="Ex.abc@gmail.com">  </td>
             </tr>
                         <tr>
-                            <td> <b>Enquiry:</b> </td>
+                            <td><label for="Enquiry"> <b> Enquiry:</b></label> </td>
                             <td> <textarea rows="10" cols="35"> </textarea> </td>
                         </tr>
                         <tr>
